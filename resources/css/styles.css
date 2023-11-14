@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*
+GLOBAL STYLES  
+*/
+html, body {
+    height: 100%;
+}
+
+main {
+    min-height: 100%;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.img {
+    opacity: 0.9;
+}
+
+/*
+TYPOGRAPHY
+*/
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+/*
+COLOURS
+*/
+h1 {
+    color: #809eb6;
+}
+
+.subsection-1 {
+    background-color: #c5ccd2;
+}
+
+.subsection-2 {
+    background-color: #d7dadf;
+}
+
+.subsection-3 {
+    background-color: #cbc5b7;
+}
+
+.header-container {
+    background-color: #211f20;
+}
+
+.footer-header-container {
+    background-color: #211f20;;
+}
+
+h3 {
+    color: #809eb6;
+}
+
+/*
+HEADER STYLES
+*/
+header {
+    height: 100%;
+    background-image: url("../images/parallax-main.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    width: 20%;
+    text-align: center;
+}
+
+/*
+SUBSECTION STYLES
+*/
+.subsection {
+    height: 300px;
+}
+
+.subsection-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+h2 {
+    padding-bottom: 1%;
+}
+
+/*
+IMAGE STYLES
+*/
+.subsection-image-1, .subsection-image-2 {
+    height: 650px;
+}
+
+.subsection-image-1 {
+    background-image: url("../images/parallax-1.jpg");
+}
+
+.subsection-image-2 {
+    background-image: url("../images/parallax-2.jpg");
+}
+
+.final-image {
+    background-image: url("../images/parallax-final.jpg");
+}
+
+/*
+FOOTER STYLES
+*/
+footer {
+    height: 100%;
+}
+
+.final-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-header-container {
+    width: 20%;
+    text-align: center;
+}
